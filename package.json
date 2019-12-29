@@ -1,15 +1,16 @@
 {
-  "name": "SavvyStarter",
+  "name": "savvy-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx browser-sync start --server --files '*.html, *.css, *.js"
+    "serve": "npx browser-sync start --server --files '*.html, *.css, *.js'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
