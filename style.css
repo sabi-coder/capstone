@@ -60,6 +60,7 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
+  height: 57vw
 }
 
 form div {
