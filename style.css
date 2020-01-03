@@ -60,7 +60,7 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
-  height: 57vw
+  height: 80vw
 }
 
 form div {
@@ -134,7 +134,9 @@ footer {
 
 .flex--column {
   flex-direction: column;
+  padding: .5rem;
 }
+
 
 .justify-center {
   justify-content: center;
@@ -172,11 +174,17 @@ footer {
   .flex--md {
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    min-height: min-content;
   }
 
   /* Direct child selector. */
   #jobs > div {
-    width: 50vw;
+    padding: 0;
+    border: solid 3px var(--secondary-color);
+    border-radius: 0.25rem;
+    margin: 2rem 1rem;
+    width: calc(33vw - 2rem);
   }
 }
 @media screen and (min-width: 1440px) {
