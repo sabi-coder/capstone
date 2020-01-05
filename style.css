@@ -163,14 +163,6 @@ footer {
     display: flex;
     font-size: 30px;
   }
-
-  #poop > div {
-    width: 33vw;
-    border: solid 3px var(--text-secondary-color);
-    border-radius: 0.25rem;
-    margin: 2rem 1rem;
-    font-size: 0.9em;
-  }
 }
 
 @media screen and (min-width: 885px) {
