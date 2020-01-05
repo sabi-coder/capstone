@@ -53,7 +53,6 @@ header {
 ul {
   list-style-type: none;
   padding: 0;
-  justify-space-between;
 }
 
 p {
@@ -62,7 +61,7 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
-  height: 80vw
+  height: 80vw;
 }
 
 form div {
@@ -136,7 +135,7 @@ footer {
 
 .flex--column {
   flex-direction: column;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .flex--wrap {
@@ -163,21 +162,20 @@ footer {
   .flex--sm {
     display: flex;
     font-size: 30px;
-    }
+  }
 
-  #poop > div{
+  #poop > div {
     width: 33vw;
     border: solid 3px var(--text-secondary-color);
     border-radius: 0.25rem;
     margin: 2rem 1rem;
-    font-size: .9em;
-    }
+    font-size: 0.9em;
   }
+}
 
 @media screen and (min-width: 885px) {
   #hero {
-    background: img src= ("./images/image001.jpg") top center
-      no-repeat;
+    background: img src= ("./images/image001.jpg") top center no-repeat;
     background-size: cover;
     height: 75vh;
     width: 100vw;
@@ -215,7 +213,9 @@ footer {
 }
 
 /* Style inputs for Contact Page */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -223,12 +223,12 @@ input[type=text], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -237,7 +237,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
