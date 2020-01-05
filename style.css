@@ -139,6 +139,9 @@ footer {
   padding: .5rem;
 }
 
+.flex--wrap {
+  flex-wrap: wrap;
+}
 
 .justify-center {
   justify-content: center;
@@ -156,13 +159,20 @@ footer {
   text-align: center;
 }
 
-/* We set a breakpoint of 768px. */
 @media screen and (min-width: 768px) {
   .flex--sm {
-    /* By default, flexbox puts all the children in a row. */
     display: flex;
+    font-size: 30px;
+    }
+
+  #poop > div{
+    width: 33vw;
+    border: solid 3px var(--text-secondary-color);
+    border-radius: 0.25rem;
+    margin: 2rem 1rem;
+    font-size: .9em;
+    }
   }
-}
 
 @media screen and (min-width: 885px) {
   #hero {
