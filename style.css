@@ -61,7 +61,9 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
-  height: 80vw;
+
+  /* TODO{nikki}: Consider removing this rule. */
+  /* height: 80vw; */
 }
 
 form div {
@@ -97,6 +99,9 @@ footer {
 /* Scope this for just #jobs. */
 #jobs div {
   border-bottom: solid thin var(--secondary-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1.5rem -3px rgba(0, 0, 0, 0.1),
+    0 0.4rem 0.6rem -2px rgba(0, 0, 0, 0.05);
   margin: 2rem 0;
   padding-bottom: 2rem;
   text-align: center;
