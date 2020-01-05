@@ -61,7 +61,9 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
-  height: 80vw;
+
+  /* TODO{nikki}: Consider removing this rule. */
+  /* height: 80vw; */
 }
 
 form div {
@@ -97,6 +99,9 @@ footer {
 /* Scope this for just #jobs. */
 #jobs div {
   border-bottom: solid thin var(--secondary-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1.5rem -3px rgba(0, 0, 0, 0.1),
+    0 0.4rem 0.6rem -2px rgba(0, 0, 0, 0.05);
   margin: 2rem 0;
   padding-bottom: 2rem;
   text-align: center;
@@ -163,19 +168,11 @@ footer {
     display: flex;
     font-size: 30px;
   }
-
-  #poop > div {
-    width: 33vw;
-    border: solid 3px var(--text-secondary-color);
-    border-radius: 0.25rem;
-    margin: 2rem 1rem;
-    font-size: 0.9em;
-  }
 }
 
 @media screen and (min-width: 885px) {
   #hero {
-    background: img src= ("./images/image001.jpg") top center no-repeat;
+    background: url(./images/image001.jpg) top center no-repeat;
     background-size: cover;
     height: 75vh;
     width: 100vw;
