@@ -167,7 +167,7 @@ footer {
 
 @media screen and (min-width: 885px) {
   #hero {
-    background: img src= ("./images/image001.jpg") top center no-repeat;
+    background: url(./images/image001.jpg) top center no-repeat;
     background-size: cover;
     height: 75vh;
     width: 100vw;
