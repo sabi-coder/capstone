@@ -1,4 +1,5 @@
-`<main>
+export default () =>
+  `<main>
   <div>
     <h2>
       Figuring out cybersecurity and what each career path looks like.

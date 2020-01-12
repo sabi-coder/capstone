@@ -1,4 +1,4 @@
-`<header>
-  <h1>Information Security Career Paths</h1>
-</header>
-`;
+export default () =>
+  `<header>
+    <h1>Information Security Career Paths</h1>
+  </header>`;

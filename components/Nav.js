@@ -1,8 +1,16 @@
-`<nav>
-  <ul class="flex justify-space-around">
-    <li class="button"><a href="#">Home</a></li>
-    <li class="button"><a href="./jobs/">Jobs</a></li>
-    <li class="button"><a href="./references/">References</a></li>
-    <li class="button"><a href="./contact-page/">Contact Page</a></li>
-  </ul>
-</nav>`;
+function createListHTML(links) {
+  return links
+    .map(
+      link =>
+        `{li class="button"><a href="./${link.toLowerCase()}/">${links}</a></li>`
+    )
+    .join("");
+}
+
+export default st => `
+  <nav>
+    <ul class="flex justify-space-around">
+      ${createListHTML(st)}
+    </ul>
+  </nav>
+  `;
