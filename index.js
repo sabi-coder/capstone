@@ -1,6 +1,6 @@
 import { Header, Nav, Main, Footer } from "./components";
 
-import = as state from "./store";
+import * as state from "./store";
 
 import capitalize from "lodash.capitalize";
 
