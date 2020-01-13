@@ -1,10 +1,12 @@
 function createListHTML(links) {
+  console.log(links);
+
   return links
     .map(
       link =>
-        `{li class="button"><a href="./${link.toLowerCase()}/">${links}</a></li>`
+        `<li class="button"><a href="./${link.toLowerCase()}/">${link}</a></li>`
     )
-    .join("");
+    .join(" ");
 }
 
 export default st => `
