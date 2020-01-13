@@ -4,9 +4,8 @@ import * as state from "./store";
 
 import capitalize from "lodash.capitalize";
 
-function render (st = state.Home) {
-  document.querySelector("#root").innerHTML =
-    `
+function render(st = state.Home) {
+  document.querySelector("#root").innerHTML = `
       ${Header(st)}
       ${Nav(state.Links)}
       ${Main(st)}
