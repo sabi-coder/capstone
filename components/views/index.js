@@ -4,5 +4,5 @@
  */
 export { default as Jobs } from "./Jobs";
 export { default as References } from "./References";
-export { default as Contact-Page } from "./Contact-Page";
+export { default as Contact } from "./Contact";
 export { default as Home } from "./Home";
