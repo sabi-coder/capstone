@@ -1,4 +1,4 @@
-export default st => `
+export default `
 <div>
 <h2>Certifications</h2>
 <img src="../images/certifications.png" />
