@@ -4,7 +4,7 @@ export default `
 <img class="flex justify-center" src="https://raw.githubusercontent.com/sabi-coder/capstone/master/images/certifications.png" />
 <img class="flex justify-center" src="https://raw.githubusercontent.com/sabi-coder/capstone/master/images/sans-roadmap.png" />
 <h3>The following certs are considered the top recommended:</h3>
-<ul class="text-align-center">
+<ul class="text-align-center cert-list">
   <li>Security+ (Sec+)</li>
   <li>PenTest+</li>
   <li>Cybersecurity Analyst+ (CySa+)</li>
