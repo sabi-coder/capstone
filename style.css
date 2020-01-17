@@ -208,7 +208,7 @@ footer {
   }
 }
 
-.referencesContainer{
+.referencesContainer {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
