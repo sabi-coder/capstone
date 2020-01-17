@@ -1,3 +1,3 @@
 export default {
-  heading: "Contact Page"
+  heading: "Contact"
 };

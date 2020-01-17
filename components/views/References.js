@@ -1,8 +1,8 @@
 export default `
-<div>
+<div class="referencesContainer">
 <h2>Certifications</h2>
-<img src="../images/certifications.png" />
-<img src="../images/sans-roadmap.png" />
+<img class="flex justify-center" src="https://raw.githubusercontent.com/sabi-coder/capstone/master/images/certifications.png" />
+<img class="flex justify-center" src="https://raw.githubusercontent.com/sabi-coder/capstone/master/images/sans-roadmap.png" />
 <h3>The following certs are considered the top recommended:</h3>
 <ul class="text-align-center">
   <li>Security+ (Sec+)</li>

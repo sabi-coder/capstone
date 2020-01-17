@@ -195,18 +195,24 @@ footer {
   }
 }
 @media screen and (min-width: 1440px) {
-  figure {
+  img {
     margin: 0;
   }
 
   /* Direct child selector. */
   #jobs > div {
-    /* TODO: Look up box-shadow on MDN. */
     border: solid 3px var(--secondary-color);
     border-radius: 0.25rem;
     margin: 2rem 1rem;
     width: calc(33vw - 2rem);
   }
+}
+
+.referencesContainer{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style inputs for Contact Page */

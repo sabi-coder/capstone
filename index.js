@@ -5,6 +5,8 @@ import * as state from "./store";
 import capitalize from "lodash.capitalize";
 
 function render(st = state.Home) {
+  console.log("render", st);
+
   document.querySelector("#root").innerHTML = `
       ${Header(st)}
       ${Nav(state.Links)}
