@@ -1,4 +1,4 @@
-export default () => `
+export default st => `
 <div>
           <h2>Security Software Developer</h2>
           <p>
