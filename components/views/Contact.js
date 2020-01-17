@@ -4,7 +4,7 @@ export default `
       The method attribute specifies the HTTP method (GET or POST)
     -->
     <div class="container">
-    <form name="contactForm" method="POST" netlify>
+    <form action="https://formspree.io/mayeddjr" method="POST" netlify>
       <label for="fname">First Name</label>
       <input
         type="text"
