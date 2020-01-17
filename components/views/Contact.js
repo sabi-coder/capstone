@@ -4,7 +4,7 @@ export default `
       The method attribute specifies the HTTP method (GET or POST)
     -->
     <div class="container">
-    <form action="#" method="POST">
+    <form action="#" method="POST" data-netlify= "true">
       <label for="fname">First Name</label>
       <input
         type="text"
