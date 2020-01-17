@@ -1,4 +1,4 @@
 export default () =>
   `<footer>
-    &copy; 2019 Savvy Coders
+    &copy; 2020 Nichole Herrington
   </footer>`;
