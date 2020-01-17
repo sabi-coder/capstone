@@ -18,16 +18,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.157em;
+  font-size: 4em;
   margin: 0;
   color: var(--text-secondary-color);
   text-align: center;
+  text-shadow: 1px 1px 1px #111111;
 }
 
 h3 {
-  color: rgba(255, 0, 255, 0.623);
+  color: var(--text-secondary-color);
   font-size: 2.369em;
   margin: 0;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 1px #111111;
 }
 
 li,
@@ -61,6 +64,7 @@ p {
     Second number is left and right. */
   padding: 2rem;
   text-align: center;
+  font-weight: 700;
 
   /* TODO{nichole}: Consider removing this rule. */
   /* height: 80vw; */
@@ -161,6 +165,10 @@ footer {
 
 .text-align-center {
   text-align: center;
+}
+
+.cert-list > li {
+  text-shadow: 1px 1px 1px var(--text-secondary-color);
 }
 
 @media screen and (min-width: 768px) {
