@@ -39,6 +39,8 @@ label,
 input,
 button {
   font-size: 1.777em;
+  color: #111111;
+  font-weight: 600;
 }
 
 figure,
